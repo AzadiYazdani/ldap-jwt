@@ -75,14 +75,13 @@ class TokenControllerTest {
 
     private UploadedMultipartFileDto uploadRequest() {
 
-        UploadedMultipartFileDto file
-                = new UploadedMultipartFileDto(
+        return  new UploadedMultipartFileDto(
                 "Hello, World!".getBytes(),
                 MediaType.TEXT_PLAIN_VALUE,
                 "file",
-                "hello.txt"
+                "hello.txt",
+                null
         );
-        return file;
     }
 
     private String asJsonString(final Object obj) {
