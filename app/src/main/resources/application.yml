@@ -8,18 +8,15 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 
-
-
-
 jwt:
   timeout: 10
+  secret: asdfSFS34wfsdfsdfSDSD32dfsddDDerQSNCK34SOWEK5354fdgdf4
   token-string:
     username: username
     password: password
     header: Authorization
     prefix: Bearer
 
-  secret: asdfSFS34wfsdfsdfSDSD32dfsddDDerQSNCK34SOWEK5354fdgdf4
 
 ldap:
   url: ldap://DC-th01.TLS.IR
