@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 
 @Entity
-@Table(schema = "light_db", name = "city")
+@Table(schema = "sale_db", name = "city")
 @Getter
 @Setter
 @AllArgsConstructor

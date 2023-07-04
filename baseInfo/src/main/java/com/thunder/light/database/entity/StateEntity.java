@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@Table(schema = "light_db",name = "state")
+@Table(schema = "sale_db",name = "state")
 @Getter
 @Setter
 @AllArgsConstructor

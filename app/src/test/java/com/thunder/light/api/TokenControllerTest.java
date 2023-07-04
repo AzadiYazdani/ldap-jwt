@@ -57,7 +57,7 @@ class TokenControllerTest {
                 mockMvc.perform(post("/file/upload")
                                 .content(asJsonString(request)
                                 )
-                                .header("Authorization", "Bearer " + token)
+                                 .header("Authorization", "Bearer " + token)
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .accept(MediaType.APPLICATION_JSON)
                         )
