@@ -21,6 +21,7 @@
         <org.projectlombok.version>1.18.12</org.projectlombok.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
         <mapstruct-lombok.version>0.2.0</mapstruct-lombok.version>
+        <spring.version>2.2.7.RELEASE</spring.version>
     </properties>
     <dependencies>
         <dependency>
@@ -89,6 +90,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
