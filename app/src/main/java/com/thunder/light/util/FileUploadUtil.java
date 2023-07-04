@@ -21,7 +21,7 @@ public class FileUploadUtil {
         if(StringUtils.isBlank(fileName))
             throw new InvalidFileNameException("", "The uploaded file has no name");
 
-        Path path = Paths.get("Files-Upload");
+        Path path = Paths.get("../Files-Upload");
 
         if (attributes != null) {
             attributes.forEach((key, value) -> {
