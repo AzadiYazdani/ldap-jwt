@@ -11,8 +11,8 @@
     <groupId>com.thunder</groupId>
     <artifactId>light</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ldap-upload</name>
-    <description>ldap-upload</description>
+    <name>ldap-jwt</name>
+    <description>ldap-jwt</description>
     <packaging>jar</packaging>
     <properties>
         <java.version>8</java.version>
