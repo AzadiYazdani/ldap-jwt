@@ -1,0 +1,34 @@
+spring:
+  application:
+    name: thunder-light-upload-file-ldap
+  datasource:
+    url: jdbc:mysql://localhost:3306/sale_db
+    username: sale_user
+    password: S@Idaza1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+jwt:
+  timeout: 10
+  secret: asdfSFS34wfsdfsdfSDSD32dfsddDDerQSNCK34SOWEK5354fdgdf4
+  token-string:
+    username: username
+    password: password
+    header: Authorization
+    prefix: Bearer
+
+
+ldap:
+  url: ldap://DC-th01.TLS.IR
+  port: 389
+  directory:
+    root: dc=TSL,dc=ir
+  domain: TLS
+  user:
+    base: ou=persons,ou=people,ou=users
+    filter: uid={0}
+  group:
+    base: ou=persons,ou=people,ou=users,dc=TSL,dc=ir
+  factory: com.sun.jndi.ldap.LdapCtxFactory
+  security:
+    authentication: simple
